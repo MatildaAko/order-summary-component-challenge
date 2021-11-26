@@ -127,3 +127,49 @@ button:hover {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 570px) {
+    body {
+        font-size: 14px;
+    }
+    main {
+        border-radius: 20px;
+        width: 350px;
+        margin: 20px;
+    }
+    h1 {
+        font-size: 25px;
+        padding-bottom: 0.7rem;
+    }
+    .order-text {
+        padding-bottom: 0.7rem;
+    }
+    .plan-section {
+        padding: 0.2rem 0.7rem;
+        margin-bottom: 1.2rem;
+    }
+    .plan-section a {
+        font-size: 12px;
+    }
+    .plan-row {
+        padding: 0 1.2rem;
+    }
+    button {
+        padding: 0.7rem 0;
+        width: calc(75% + 1.5rem);
+        color: white;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    .cancel {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .attribution {
+        font-size: 9px;
+    }
+    .round {
+        width: 350px;
+    }
+}
